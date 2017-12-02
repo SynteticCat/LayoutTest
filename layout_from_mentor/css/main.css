@@ -1,0 +1,33 @@
+body {
+	font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+header {
+}
+
+.container {
+}
+
+.logo {
+}
+
+nav {
+}
+
+.menu {
+}
+
+.menu li {
+}
+
+.menu li a {
+}
