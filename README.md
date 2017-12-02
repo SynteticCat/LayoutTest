@@ -8,3 +8,6 @@ So, i starting to learn WEB - technologies there.
     - HTML
     - CSS
   - <b>finished to study</b>
+
+Дополнительные материалы:
+  - htmlbook.ru/css - актуальные свойства css
