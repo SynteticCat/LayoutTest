@@ -10,5 +10,5 @@ So, i starting to learn WEB - technologies there.
   - <b>finished to study</b>
 
 Дополнительные материалы:
-  - http://htmlbook.ru/ - понятно
+  - http://htmlbook.ru/ - не всегда наглядно, понятно
   - https://html5book.ru/ - красиво, наглядно и понятно
