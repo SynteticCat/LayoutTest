@@ -10,4 +10,5 @@ So, i starting to learn WEB - technologies there.
   - <b>finished to study</b>
 
 Дополнительные материалы:
-  - htmlbook.ru/css - актуальные свойства css
+  - htmlbook.ru/css - понятно
+  - https://html5book.ru/ - красиво, наглядно и понятно
