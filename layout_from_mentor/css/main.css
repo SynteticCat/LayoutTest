@@ -33,7 +33,6 @@ header {
 .container {
 	width: 950px;
 	margin: 0 auto;
-	border: 4px solid red;
 }
 
 .logo {
@@ -101,7 +100,6 @@ nav {
 	text-align: center;
 	font-size: 30px;
 	margin-top: 90px;
-	border: 1px solid #000;
 }
 
 /*SERVICES*/
@@ -186,14 +184,12 @@ nav {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 30px;
-	border: 1px solid #000;
 }
 
 .team__members__item {
 	float: left;
 	width: 221px;
 	padding: 7px;
-	border: 1px solid green;
 }
 
 .team__members__item img {
@@ -211,21 +207,17 @@ nav {
 	font-size: 20px;
 	font-weight: lighter;
 	margin-top: 10px;
-	border: 1px solid black;
-
 }
 
 .team__members__item h5 {
 	font-size: 17px;
 	font-weight: lighter;
 	margin-top: -27px;
-	border: 1px solid green;
 }
 
 .team__members__item p {
 	font-size: 13px;
 	margin-top: -10px;
-	border: 1px solid black;
 }
 
 /*PORTFOLIO*/
@@ -257,14 +249,12 @@ nav {
 	margin: 40px auto;
 	width: 950px;
 	height: 461px;
-	border: 1px solid black;
 }
 
 .portfolio-menu__item {
 	width: 300px;
 	float: left;
 	padding: 7px;
-	border: 1px solid red;
 }
 
 .portfolio-menu__item img {
@@ -285,7 +275,6 @@ nav {
     padding-bottom: 30px;
 	font-size: 30px;
 	font-weight: lighter;
-	border: 1px solid #000;
 }
 
 .contact-us__left {
@@ -293,7 +282,6 @@ nav {
     width: 500px;
     height: 320px;
 	float: left;
-	border: 4px solid #000;
 }
 
 .contact-us__left__input1 {
@@ -372,7 +360,6 @@ nav {
     padding: 7px 20px;
     transition: all 0.3s;
 	float: left;
-	border: 1px solid #E96840;
 }
 
 .button__2:hover {
@@ -384,13 +371,11 @@ nav {
     width: 430px;
     height: 320px;
 	float: right;
-	border: 4px solid green;
 }
 
 .contact-us__right__1 {
 	padding: 5px;
 	margin: 5px;
-	border: 2px solid red;
 }
 
 
@@ -399,7 +384,6 @@ nav {
 	float: left;
 	padding: 5px;
 	margin: 20px;
-    border: 1px solid #000;
 }
 
 .contact-us__right__label1 {
@@ -410,7 +394,6 @@ nav {
 	opacity: 0.7;
 	padding: 5px auto;
 	margin: 20px;
-    border: 2px solid #fff;
 }
 
 
@@ -419,7 +402,6 @@ nav {
 	float: left;
 	padding: 5px;
 	margin: 20px;
-    border: 1px solid #000;
 }
 
 .contact-us__right__label2 {
@@ -430,7 +412,6 @@ nav {
 	opacity: 0.7;
 	padding: 5px auto;
 	margin: 20px;
-    border: 2px solid #fff;
 }
 
 /*FOLLOW US*/
@@ -440,5 +421,4 @@ nav {
 	text-align: center;
 	font-size: 30px;
 	margin-top: 40px;
-	border: 1px solid #000;
 }
