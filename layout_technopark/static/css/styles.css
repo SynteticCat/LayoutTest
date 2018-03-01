@@ -3,10 +3,40 @@ body {
 }
 
 .framework {
-  border: 1px solid #004fff;
+  border: 1px solid darkgrey;
 }
 
 .popular-tags {
   font-family: "Comic Sans MS";
   font-size: 120%;
+}
+
+.font-150-per-cent {
+  font-size: 150%;
+}
+
+.img-128-center {
+  display: block;
+  margin: 5% auto;
+  width: 128px;
+}
+
+.table-counter {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.table-counter td {
+  text-align: center;
+  color: #17A2B8;
+  font-size: 125%;
+}
+
+.table-counter td button {
+  width: 70px;
+  height: 35px;
+}
+
+.border-question {
+  border: 5px solid #F8F9FA;
 }
