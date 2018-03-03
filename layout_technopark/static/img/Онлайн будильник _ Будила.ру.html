@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- saved from url=(0017)http://budila.ru/ -->
+<html lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="description" content="Онлайн будильник - Мы верим, что этот онлайн будильник разбудит Вас. Он прост и эффективен.">
+    <meta name="keywords" content="онлайн будильник, часы онлайн, будильник, будила, интернет будильник, программа будильник, online alarm clock, alarm clock">
+
+    <meta name="publisher" content="Istok Pavlovic, republished by Dima A Blinov">
+    <meta name="author" content="Istok Pavlovic, translated to russian by Dima A Blinov">
+    <meta name="copyright" content="Copyright  2008 Istok Pavlovic">
+    <meta property="og:image" content="../www.budila.ru/images/fbogimage.jpg">
+	<!--Поправить-->
+
+    <link rel="shortcut icon" href="http://budila.ru/budila.ico">
+	<!--Поправить-->
+    <link href="./Онлайн будильник _ Будила.ру_files/css" rel="stylesheet" type="text/css">
+    
+    <title>Онлайн будильник | Будила.ру</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"> <!--320-->
+    
+    <link rel="stylesheet" href="./Онлайн будильник _ Будила.ру_files/style.css">
+
+    
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <![endif]-->
+
+</head>
+
+<body>
+
+  <header>
+    
+    <div id="logo" title="Создан чтобы разбыдить Вас!">
+
+      <div id="title" style="color: rgb(170, 170, 170);">Мы верим, что этот будильник разбудит Вас. Будильник прост и эффективен.</div>
+
+    </div>
+    <div id="swissmade"></div>
+  </header>
+
+<br>
+<br>
+
+  <div id="main">
+      
+      <div id="application">
+        
+        <div id="wake_me_up_text" class="clock_text" style="color: rgb(170, 170, 170);">Разбудить в:</div>
+        
+        <div id="select_time">
+        	<div id="current_time">Текущее время: <span>10:11:11</span></div>
+        	  
+            <div id="hours_one" class="digit" style="left: 50px;">1</div>
+            <div id="hours_two" class="digit" style="left: 86px;">0</div>
+            <div id="divider">:</div>
+            <div id="minutes_one" class="digit" style="left: 150px;">2</div>
+            <div id="minutes_two" class="digit" style="left: 196px;">0</div>
+            
+            <div id="button_theme_night" class="theme_button" style="display: none;">Ночной режим</div>
+            <div id="button_theme_day" class="theme_button none" style="display: block;">Дневной режим</div>
+       		 <div id="button_plus_hour" class="clock_button"></div>
+            <div id="button_minus_hour" class="clock_button"></div>
+            <div id="button_plus_min" class="clock_button"></div>
+            <div id="button_minus_min" class="clock_button"></div>
+            <div id="select_time_overlay" style="display: block;"></div>
+        </div><!-- end select_time -->
+        
+        <div id="with_sound_text" class="clock_text" style="color: rgb(170, 170, 170);">Под музыку:</div>
+        
+        <div id="select_sound">
+        	<div id="choose_sound_left" class="clock_button"></div>
+            <div id="choose_sound_right" class="clock_button"></div>
+            <div id="preview_sound">
+            	<div id="button_preview_sound" class="clock_button"></div>
+                <div class="text_preview_sound">Прослушать</div>
+            </div>
+            <div id="preview_stop" class="none" style="display: none;">
+            	<div id="button_preview_stop" class="clock_button"></div>
+                <div class="text_preview_sound">Остановить</div>
+            </div>
+            <div id="sound_cock" class="sound_container" style="">
+            	<div class="sound_name">Курятина</div>
+                <div class="sound_image"></div>
+            </div>
+            <div id="sound_clock" class="sound_container none" style="display: none;">
+            	<div class="sound_name">Будильник</div>
+                <div class="sound_image"></div>
+            </div>
+            <div id="sound_electronic" class="sound_container none" style="display: none;">
+            	<div class="sound_name">Электроника</div>
+                <div class="sound_image"></div>
+            </div>
+            <div id="sound_guitar" class="sound_container none" style="display: none;">
+            	<div class="sound_name">Хард Рок</div>
+                <div class="sound_image"></div>
+            </div>
+            <div id="sound_military" class="sound_container none" style="display: none;">
+            	<div class="sound_name">Армейский подъем</div>
+                <div class="sound_image"></div>
+            </div>
+            <div id="sound_alien" class="sound_container none" style="display: none;">
+              <div class="sound_name">Вторжение</div>
+                <div class="sound_image"></div>
+            </div>
+            <div id="select_sound_overlay" style="display: block;"></div>
+        </div><!-- end select_sound -->
+      
+      
+      <div id="set_alarm_button" class="button" style="display: none;">Запустить</div>
+      
+      <div id="alarm_set" class="none" style="display: block;">
+      	<div id="alarm_set_text" style="color: rgb(170, 170, 170);">Запущено!</div>
+        <div id="cancel_button" class="button">Отменить</div>
+      </div>  
+      
+      <div id="alarm_start" class="none" style="display: none;">
+      	<div id="wakeup" style="color: rgb(170, 170, 170);">Проснись!</div>
+        <div id="stopor">
+          <div id="stop_alarm_button" class="button">Остановить</div><div id="or" style="color: rgb(170, 170, 170);">or</div>
+        </div>
+        <div id="snooze_button" class="button">Отложить на 10 минут</div>
+      </div>
+
+        <audio src="audio/cock.mp3" id="audio_cock" preload="auto" loop=""></audio>
+        <audio src="audio/clock.mp3" id="audio_clock" preload="auto" loop=""></audio>
+        <audio src="audio/electronic.mp3" id="audio_electronic" preload="auto" loop=""></audio>
+        <audio src="audio/guitar.mp3" id="audio_guitar" preload="auto" loop=""></audio>
+        <audio src="audio/military.mp3" id="audio_military" preload="auto" loop=""></audio>
+        <audio src="audio/alien.mp3" id="audio_alien" preload="auto" loop=""></audio>
+
+
+      
+  </div><!-- application closed -->
+
+<br>
+<br>
+<br>
+
+
+	 <center><div id="adsense">
+  <script src="./Онлайн будильник _ Будила.ру_files/cb=gapi.loaded_1" async=""></script><script src="./Онлайн будильник _ Будила.ру_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="./Онлайн будильник _ Будила.ру_files/plusone.js" style="color: rgb(0, 0, 0);" gapi_processed="true"></script><script type="text/javascript"><!--
+google_ad_client = "ca-pub-1399231165245527";
+/* Budila */
+google_ad_slot = "6147988895";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+    </div><center>
+	<br>
+
+<center><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 38px; height: 24px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 38px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" width="100%" id="I0_1519884924986" name="I0_1519884924986" src="./Онлайн будильник _ Будила.ру_files/fastbutton.html" data-gapiattached="true" title="G+"></iframe></div><center>
+      
+  </center></center></center></center></div><!-- main closed -->
+
+  <footer>
+
+    <div class="footer_text">
+      <p>Внимание, онлайн будильник может работать без подключения к сети Интернет. Точность времени зависит от системного времени Вашего компьютера.</p>
+      <p>Локализация и повторная сборка ядра онлайн будильника производилась, в не самом трезвом состоянии, ночью воскресенья 24 августа 2008 года, по причине отсутствия другого будильника.</p>
+      <p>За 10 лет неприрывной работы, онлайн будильник "Будила" разбудил более 12 000 000 раз. </p>
+      <p>Copyright Kuku Klok © 2008-2018. Swiss Made. Republished by Native Team.</p>
+    </div>
+
+  </footer>
+
+<div id="daywrapper"></div>
+<div id="nightwrapper" style="opacity: 1;"></div>
+
+
+
+<script src="./Онлайн будильник _ Будила.ру_files/jquery-3.2.1.min.js"></script>
+<script src="./Онлайн будильник _ Будила.ру_files/jquery.animate-colors-min.js"></script>
+<script src="./Онлайн будильник _ Будила.ру_files/custom5e1f.js"></script> 
+
+<iframe name="oauth2relay538706335" id="oauth2relay538706335" src="./Онлайн будильник _ Будила.ру_files/postmessageRelay.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><div class="__disk_root__" style="position: static;"></div></body></html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="../static/css/styles.css">
+
+    <title>Common layout</title>
+</head>
+<body>
+<header>
+    <div class="bg-light">
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light" style="height: 80px;">
+            <img src="../static/img/adventure_time.png" width="64px" class="d-inline-block align-top" alt="">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <a href="#" class="float-right" style="margin-left: 450px;"><u>log in</u></a>
+            <a href="#" class="float-right ml-5"><u>register</u></a>
+        </nav>
+    </div>
+</header>
+
+<!-- base section -->
+<section class="container mt-2">
+    <div class="row">
+        <!-- question forms -->
+        <div class="col-9">
+            <h3 class="mt-4">New Question</h3>
+            <div class="form-group row mt-5">
+                <label for="inputTextQuestion" class="col-sm-2 col-form-label">Title:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputTextQuestion">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="FormQuestionTextarea">Text:</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="FormQuestionTextarea" rows="8"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="TagsForInputQuestion">Tags:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="TagsForInputQuestion">
+                </div>
+            </div>
+            <button type="button" class="btn btn-success" style="width: 100%;">Ask</button>
+        </div>
+
+        <!-- sidebar -->
+        <div class="col-3">
+            <div class="pt-4 popular-tags">
+                <h2>Popular Tags</h2>
+                <p><a href="#" class="text-success">business</a></p>
+                <p><a href="#" class="text-danger">politic</a></p>
+                <p><a href="#" class="text-info">IT</a></p>
+            </div>
+            <div>
+                <h2>Best Members</h2>
+                <p><a href="#"><u>Dr.Martins</u></a></p>
+                <p><a href="#"><u>Robert D.</u></a></p>
+                <p><a href="#"><u>MisterX</u></a></p>
+                <p><a href="#"><u>Irina A.</u></a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container bg-light py-3 mt-2 framework" style="height: 70px">
+            <pre>
+Разработка тестового портала: web-технологии, Технопарк
+email: <a mailto="#">sviridov9199@gmail.com</a>
+            </pre>
+    </div>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="../static/js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="../static/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
