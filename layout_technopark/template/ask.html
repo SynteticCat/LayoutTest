@@ -11,13 +11,13 @@
     <!-- Styles CSS -->
     <link rel="stylesheet" href="../static/css/styles.css">
 
-    <title>Common layout</title>
+    <title>Ask</title>
 </head>
 <body>
 <header>
-    <div class="bg-light">
-        <nav class="container navbar navbar-expand-lg navbar-light bg-light" style="height: 80px;">
-            <img src="../static/img/adventure_time.png" width="64px" class="d-inline-block align-top" alt="">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light" style="height: 80px;">
+        <div class="container">
+            <a href="index.html"><img src="../static/img/adventure_time.png" width="64px" class="d-inline-block align-top" alt=""></a>
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,18 +26,37 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
-            <a href="#" class="float-right" style="margin-left: 450px;"><u>log in</u></a>
-            <a href="#" class="float-right ml-5"><u>register</u></a>
-        </nav>
-    </div>
+            <a href="login.html" class="float-right" style="margin-left: 450px;"><u>log in</u></a>
+            <a href="signup.html" class="float-right ml-5"><u>register</u></a>
+        </div>
+    </nav>
 </header>
 
 <!-- base section -->
 <section class="container mt-2">
     <div class="row">
-        <!-- content -->
+        <!-- question forms -->
         <div class="col-9">
-            content...
+            <h3 class="mt-4">New Question</h3>
+            <div class="form-group row mt-5">
+                <label for="inputTextQuestion" class="col-sm-2 col-form-label">Title:</label>
+                <div class="col-sm-10">
+                    <input placeholder="Enter your question here" type="text" class="form-control" id="inputTextQuestion">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="FormQuestionTextarea">Text:</label>
+                <div class="col-sm-10">
+                    <textarea  placeholder="Enter text of your question here" class="form-control" id="FormQuestionTextarea" rows="8"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="TagsForInputQuestion">Tags:</label>
+                <div class="col-sm-10">
+                    <input  placeholder="Enter tags for your question here" type="text" class="form-control" id="TagsForInputQuestion">
+                </div>
+            </div>
+            <button type="button" class="btn btn-success" style="width: 100%;">Ask</button>
         </div>
 
         <!-- sidebar -->

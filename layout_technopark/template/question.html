@@ -11,13 +11,13 @@
     <!-- Styles CSS -->
     <link rel="stylesheet" href="../static/css/styles.css">
 
-    <title>Common layout</title>
+    <title>Question</title>
 </head>
 <body>
 <header>
-    <div class="bg-light">
-        <nav class="container navbar navbar-expand-lg navbar-light bg-light" style="height: 80px;">
-            <img src="../static/img/adventure_time.png" width="64px" class="d-inline-block align-top" alt="">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light" style="height: 80px;">
+        <div class="container">
+            <a href="index.html"><img src="../static/img/adventure_time.png" width="64px" class="d-inline-block align-top" alt=""></a>
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,37 +26,86 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
-            <a href="#" class="float-right" style="margin-left: 450px;"><u>log in</u></a>
-            <a href="#" class="float-right ml-5"><u>register</u></a>
-        </nav>
-    </div>
+            <a href="login.html" class="float-right" style="margin-left: 450px;"><u>log in</u></a>
+            <a href="signup.html" class="float-right ml-5"><u>register</u></a>
+        </div>
+    </nav>
 </header>
 
 <!-- base section -->
 <section class="container mt-2">
     <div class="row">
-        <!-- question forms -->
+        <!-- content -->
         <div class="col-9">
-            <h3 class="mt-4">New Question</h3>
-            <div class="form-group row mt-5">
-                <label for="inputTextQuestion" class="col-sm-2 col-form-label">Title:</label>
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputTextQuestion">
+            <div class="row mt-2 m-2">
+                <div class="col-3 mb-2">
+                    <div><img src="../static/img/adventure_time_avatar.png" class="img-128-center" alt=""></div>
+                    <table class="table-counter">
+                        <tr><td rowspan="2"><b>15</b></td><td><button type="button" class="btn btn-info table-counter-btn">/\</button></td></tr>
+                        <tr><td><button type="button" class="btn btn-info table-counter-btn">\/</button></td></tr></table>
+                </div>
+                <div class="col-9">
+                    <p><a href="question.html" class="font-150-per-cent">How to make this portal incredible?</a></p>
+                    <p>At the first: eat more. <br>At the second: wear incredible suit. <br>At the third: run in the mornings. <br>As soon as better for you.</p>
+                    Tags: <a href="#"><u>life</u></a><a href="#" class="ml-2"><u>IT</u></a>
                 </div>
             </div>
-            <div class="form-group row">
-                <label class="col-sm-2 col-form-label" for="FormQuestionTextarea">Text:</label>
-                <div class="col-sm-10">
-                    <textarea class="form-control" id="FormQuestionTextarea" rows="8"></textarea>
+            <!-- answers -->
+            <h3 class="my-5 text-center">Answers(2)</h3>
+            <hr>
+            <div class="row mt-2 m-2">
+                <div class="col-3 mb-2">
+                    <div><img src="../static/img/sweater.png" class="img-128-center" alt=""></div>
+                    <table class="answer-table-counter">
+                        <tr><td rowspan="2"><b>15</b></td><td><button type="button" class="btn btn-dark table-counter-btn">/\</button></td></tr>
+                        <tr><td><button type="button" class="btn btn-dark table-counter-btn">\/</button></td></tr></table>
+                </div>
+                <div class="col-9">
+                    <p>I tried to do all in accordance with this instruction. <br>
+                        And what i think about it: <br>
+                        At the first: don't eat more. <br>
+                        At the second: don't wear incredible suit. <br>
+                        At the third: don't run in the mornings. <br>
+                        As soon as better for you.</p>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label text-success" for="exampleCheck1">Useful comment!</label>
+                    </div>
                 </div>
             </div>
-            <div class="form-group row">
-                <label class="col-sm-2 col-form-label" for="TagsForInputQuestion">Tags:</label>
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="TagsForInputQuestion">
+            <hr>
+            <div class="row mt-2 m-2">
+                <div class="col-3 mb-2">
+                    <div><img src="../static/img/sweater.png" class="img-128-center" alt=""></div>
+                    <table class="answer-table-counter">
+                        <tr><td rowspan="2"><b>15</b></td><td><button type="button" class="btn btn-dark table-counter-btn">/\</button></td></tr>
+                        <tr><td><button type="button" class="btn btn-dark table-counter-btn">\/</button></td></tr></table>
+                </div>
+                <div class="col-9">
+                    <p>I tried to do all in accordance with this instruction. <br>
+                        And what i think about it: <br>
+                        At the first: don't eat more. <br>
+                        At the second: don't wear incredible suit. <br>
+                        At the third: don't run in the mornings. <br>
+                        As soon as better for you.</p>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label text-success" for="exampleCheck1">Useful comment!</label>
+                    </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-success" style="width: 100%;">Ask</button>
+            <hr>
+            <!-- create new answer -->
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">The answer must be more clear.<br>Thank you for understanding!</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea" rows="8"></textarea>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button">Answer</button>
+                </div>
+            </div>
+
         </div>
 
         <!-- sidebar -->
